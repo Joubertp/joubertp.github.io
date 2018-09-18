@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+
+</head>
+
+<body>
+
+  Bienvenue sur ma page
+  <i>maison</i>.
+
+  <div id="textArea"></div>
+  <div id="buttonBox"></div>
+
+</body>
+<script type="module">
+  import { core } from '../resource/core.js'
+  const buttonBox = document.getElementById("buttonBox")
+  const textArea = document.getElementById("textArea")
+
+  const butonHeloConsole = core.newButton("Message dans la console", core.heloInConsole)
+  const butonHeloBody = core.newButton("Message dans la page", () => {
+    core.insertNewSpan(textArea, "Boujour tout le monde!")
+  })
+
+  buttonBox.appendChild(butonHeloConsole)
+  buttonBox.appendChild(butonHeloBody)
+
+
+</script>
+
+</html>
