@@ -25,22 +25,31 @@ export const core = (() => {
         console.log("Salut le monde !")
     }
 
+    const newHeader2 = (content) => {
+        const headerBox = document.createElement('div')
+        headerBox.className = "head_title"
+        const header = document.createElement('h2')
+        header.className = "text-uppercase"
+        header.style = "font-weight:bold"
+        header.textContent = content
+
+        headerBox.appendChild(header)
+        headerBox.header = header
+
+        return headerBox
+    }
+
+    const newHeader3 = (content) => {
+        const header = document.createElement('h5')
+        header.textContent = content
+        header.className = "text-uppercase"
+        header.style.cssText = "text-decoration: underline; font-weight:bold;"
+
+        return header
+    }
+
     const newHeader4 = (content) => {
-        const header = document.createElement('h4')
-        header.textContent = content
-
-        return header
-    }
-
-    const newHeader5 = (content) => {
-        const header = document.createElement('h5')
-        header.textContent = content
-
-        return header
-    }
-
-    const newHeader6 = (content) => {
-        const header = document.createElement('h5')
+        const header = document.createElement('h6')
         header.textContent = content
 
         return header
@@ -74,9 +83,9 @@ export const core = (() => {
         heloInConsole,
         newButton,
         insertNewSpan,
+        newHeader2,
+        newHeader3,
         newHeader4,
-        newHeader5,
-        newHeader6,
         newParagraph,
         loadJSON
     }
@@ -86,8 +95,8 @@ export const core = (() => {
 export const heloInConsole = core.heloInConsole
 export const newButton = core.newButton
 export const insertNewSpan = core.insertNewSpan
+export const newHeader2 = core.newHeader2
+export const newHeader3 = core.newHeader3
 export const newHeader4 = core.newHeader4
-export const newHeader5 = core.newHeader5
-export const newHeader6 = core.newHeader6
 export const newParagraph = core.newParagraph
 export const loadJSON = core.loadJSON
