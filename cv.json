@@ -1,0 +1,121 @@
+[
+    {
+        "title": "Expériences Professionelles",
+        "content": [
+            {
+                "title": "Stage Informatique/Electronique",
+                "content": [
+                    {
+                      "title": "Développeur PHP/JavaScript chez CA-TS",
+                        "date": "2018",
+                        "content": "Dans le cadre de mon alternance à l’école EPSI de Montpellier, j’ai passé plus de 10 semaines dans l’entreprise CA-TS en tant que stagiaire en stage alterné, puis en stage continue. J'ai durant ce stage participé au delvoppement d'une application permettant de gérer les serveurs du crédit agricole. J’ai participé à la création de cette application coté back end et coté front end et à élaboration des bases de données que j'allais utiliser. Les fonctionnonalité que j'ai du dévlopper devait permetre de faire les choses suivante:\n\r-Consulter les information relative à la création d'une machine virtuelle\n\r-Poster des messages sur l'écran d'aceuil, créer un formulaire de pipelines\n\r-Consulter la liste des machines virtuel\n\r-Générer dinamiquement un un formulaire déstiné a la création des machines virtuel (chaque machines virtuel aillant un formulaire différent)."
+                    },
+                    {
+                        "title": "Développeur JavaScript chez BSWeb",
+                        "date": "2018",
+                        "content": "Dans le cadre de mon alternance à l’école EPSI de Montpellier j’ai passé 30 jours dans l’entreprise BSWeb en tant que stagiaire. J’ai durant ce stage participé à la mise en place des tests unitaires d’une application permettant d’enregistrer et comparer des prix et produits de plusieurs sites de ventes. J’ai par la même occasion fait de la révision du code. Certaine partie du code étant difficile à lire on  m’a demandé de réécrire certaines partie afin de le rendre plus lisible et plus facile à maintenir. Durant la révision de code j’ai eu plusieurs fois l’occasion de faire des requêtes à une base de données et ai dû faire une modélisation UML de certaines fonctionnalités."
+                    },
+                    {
+                        "title": "Développeur JavaEE/JavaScript chez Airbus",
+                        "date": "2017",
+                        "content": "Dans le cadre de mon IUT informatique à l’Université Montpellier – Sète, j’ai réalisé mon stage de 11 semaines chez Airbus. J’ai durant ce stage participé à la création d’une application permettant de gérer des identifiants. Les identifiants servaient à identifier des objets (pièces d’avion, outils, etc) et de ce fait les identifiant avais une norme différente en fonction de l’objet qu’il servait à identifier. J’ai participé à la création de cette application coté back end et coté front end et à l’élaboration de la base de données que j'allais utiliser en la maquettant, puis en la mettant en place. Ses bases de donnée été des BDD relationnel de type SQL. Les fonctionnonalité que j'ai du dévlopper devait permetre de faire les choses suivante:\n\r_ Gestion de identifiants\n\r_ Gestion de la norme des identifiants\n\rDurant ce projet j'ai dû dessiner les vues de l’application dans le but de maquéter l'application avant de la devlopper. Une fois cela fait j’ai dû développer les pages et les fonctionnalités de l’application coté front end et BackEnd (avec la création des composant d’accès aux données avec une interface utilisateur). Airbus étant une entreprise multinational son environnement était bilingue français/anglas. J’ai donc outre la doc technique, eu de nombreuse fois l’occasion de pratiquer l’anglais écrite et par moment orale."
+                    },
+                    {
+                        "title": "Technicien en électronique chez Airbus",
+                        "date": "2015",
+                        "content": "Durant 6 semaines j'ai eu l'occasion d'observer l'intégralité de la chaine d’assemblage des boitiers calculateurs. Du simple composant électronique à l'intégration avec l'avion. J'ai put suivre l'équipe \"Test and acceptance\", équipe dans laquelle travaillait mon tuteur de stage. Leurs taches consistaient à vérifier que les boitiers calculateur fonctionnent correctement avant d’être assemblé à l'avion."
+                    }
+                ]
+            },
+            {
+                "title": "Autres Experience",
+                "content": [
+                    {
+                        "title": "Projet IUT Informatique : Création d'un logiciel de dessin",
+                        "date": "2017",
+                        "content": "L'objectif était de créer un logiciel de dessin avec contraintes en Java."
+                    },
+                    {
+                        "title": "Projet IUT Informatique : Création d’un site web",
+                        "date": "2017",
+                        "content": "en HTML/CSS et PHP répertoriant plusieurs célébrités."
+                    },
+                    {
+                        "title": "Devoir IUT Informatique:",
+                        "date": "2017",
+                        "content": "Création d’un jeu  avec utilisation de Sprites en 2D et de gestion de donnée en Java."
+                    },
+                    {
+                        "title": "Job d'été - Traiteur dans une boucherie:",
+                        "date": "2016",
+                        "content": "J'ai put durant ce job cuisiner divers produit, comme par exemple: courgettes/tomates farcis, crème aux œufs, béchamel..."
+                    },
+                    {
+                        "title": "Projet BTS:",
+                        "date": "2016",
+                        "content": "Mon objectif était de créer un logiciel pour entreprise 2AF Acoustique aillant pour but de gérer une série de capteurs électronique. Fait en groupe j'ai eu l'occasion de créer mon propre logicielle électronique (a base de langage C) ainsi que de mètre en place le système électronique à gérer."
+                    },
+                    {
+                        "title": "Job : Babysitting:",
+                        "content": "Il m'est plusieurs fois arrivé de faire du babysitting."
+                    },
+                    {
+                        "title": "Job d'été : Maçon dans une TPE en Dordogne",
+                        "date": "2012",
+                        "content": "J'ai eu l'occasion de participer à la construction de plusieurs battements ainsi qu'a la rénovation d'un ancien château en Dordogne."
+                    },
+                    {
+                        "title": "Stagiaire: Durant une semaine à l'agence de l'eau Adour-Garonne",
+                        "date": "2010",
+                        "content": "Dans le cardre du collége j'ai fait un satge à l'agence de l'eau Adour-Garonne dans l'équipe de comptabilité."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Formations",
+        "content": [
+            {
+                "content": [
+                    {
+                      "title": "IUT Montpellier Sète - DUT Informatique - Année Spéciale",
+                        "date": "2016-2017",
+                        "content": "Cette formation a pour but de permettre aux étudiants d'obtenir en un an un DUT Informatique.Elle s'adresse à des étudiants ayant déjà un cursus universitaire et permet de répondre à deux objectifs :Se réorienter vers les filières longues de l'informatique\n\r Obtenir une double compétence"
+                    },
+                    {
+                        "title": "Lycée Charles Carnus - BTS Système Numérique, option électronique et communication",
+                        "date": "2014-2016",
+                        "content": "L’objectif de ce BTS est de former, en deux ans, des techniciens capables d’intervenir sur des systèmes utilisant les nouvelles technologies de l’information et de la communication (électronique connectée, réseaux, fibres optiques, transmission à hauts débits, robotique…)."
+                    },
+                    {
+                        "title": "Université Toulouse Toulouse III - DUT Mesures Physiques",
+                        "date": "2013 - 2014",
+                        "content": "Les titulaires du DUT mesures physiques sont formés aux techniques de mesure, de traitement du signal et des données, ainsi qu'à la caractérisation des matériaux, ce qui leur donne accès aux métiers de la métrologie, de l'instrumentation, du contrôle physico-chimique et du contrôle qualité."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "INFORMATIONS COMPLÉMENTAIRES",
+        "content": [
+            {
+                "content": [
+                    {
+                      "title": "Sport:",
+                        "content": "Athlétisme 4 années au club ASPTT de Toulouse ,spécialité: 400 m\n\rRugby TLA 6 ans , club Toulouse Lalande - Aucamville XV"
+                    },
+                    {
+                        "title": "Voyages:",
+                        "content": "Espagne, Italie, Croatie."
+                    },
+                    {
+                        "title": "Loisirs:",
+                        "content": "Littérature: fantasy et science-fiction\n\rJeux : stratégie et jeu de rôles"
+                    }
+                ]
+            }
+        ]
+    }
+]
