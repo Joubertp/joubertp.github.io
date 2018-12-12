@@ -79,6 +79,11 @@ export const core = (() => {
         xhr.send();
     }
 
+    const foldableButton = () => {
+        const button = document.createElement('img')
+
+    }
+
     return {
         heloInConsole,
         newButton,

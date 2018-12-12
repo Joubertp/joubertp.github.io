@@ -78,6 +78,11 @@
         "content": [
             {
                 "content": [
+                  {
+                      "title": "EPSI Montpellier - Concepteur Integrateur Devops",
+                        "date": "2017-2018",
+                        "content": "Cette formation permet de préparer le titre de niveau II (Bac + 3 ) enregistré au RNCP: Concepteur Integrateur Devops"
+                    },
                     {
                       "title": "IUT Montpellier Sète - DUT Informatique - Année Spéciale",
                         "date": "2016-2017",
@@ -92,6 +97,27 @@
                         "title": "Université Toulouse Toulouse III - DUT Mesures Physiques",
                         "date": "2013 - 2014",
                         "content": "Les titulaires du DUT mesures physiques sont formés aux techniques de mesure, de traitement du signal et des données, ainsi qu'à la caractérisation des matériaux, ce qui leur donne accès aux métiers de la métrologie, de l'instrumentation, du contrôle physico-chimique et du contrôle qualité."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "INFORMATIONS COMPLÉMENTAIRES",
+        "content": [
+            {
+                "content": [
+                    {
+                      "title": "Sport:",
+                        "content": "Athlétisme 4 années au club ASPTT de Toulouse ,spécialité: 400 m\n\rRugby TLA 6 ans , club Toulouse Lalande - Aucamville XV"
+                    },
+                    {
+                        "title": "Voyages:",
+                        "content": "Espagne, Italie, Croatie."
+                    },
+                    {
+                        "title": "Loisirs:",
+                        "content": "Littérature: fantasy et science-fiction\n\rJeux : stratégie et jeu de rôles"
                     }
                 ]
             }

@@ -3,8 +3,9 @@
     {"label": "JavaScript", "width":"80"},
     {"label": "SQL", "width":"80"},
     {"label": "HTML/CSS", "width":"80"},
-    {"label": "C", "width":"30"},
+    {"label": "Language C", "width":"30"},
     {"label": "PHP", "width":"25"},
     {"label": "AngularJS", "width":"20"},
-    {"label": "JavaSpring", "width":"20"}
+    {"label": "JavaSpring", "width":"20"},
+    {"label": "Shell","width":"15"}
 ]

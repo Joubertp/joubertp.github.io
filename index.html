@@ -26,7 +26,6 @@
     <link rel="stylesheet" href="assets/css/bootsnav.css">
 
 
-
     <!--For Plugins external css-->
     <link rel="stylesheet" href="assets/css/plugins.css" />
 
@@ -42,9 +41,29 @@
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="100">
 
 
+    <nav class="navbar navbar-default bootsnav navbar-fixed no-background white">
+
+
+        <div class="container"> 
+       
+
+            <!-- navbar menu -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#title">Titre</a></li> 
+                    <li><a href="#section_0">Expériences</a></li>                    
+                    <li><a href="#section_1">Formations</a></li>
+                    <li><a href="#section_2">Complement</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div> 
+
+    </nav>
+
+
     <div class="culmn">
 
-        <section id="home" class="home bg-black fix">
+        <section id="title" class="home bg-black fix">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
@@ -69,27 +88,8 @@
             <!--End off container -->
         </section>
         <!--End off Home Sections-->
-
-
-        <!--Featured Section-->
-        <section id="features" class="features bg-white">
-            <div class="container">
-                <div class="row">
-                    <div class="main_features fix roomy-70">
-
-                        <div id="CVBox" class="col-md-8"></div>
-
-                        <div id="skillBox" class="col-md-2 col-md-offset-1 sm-m-top-50"></div>
-                    </div>
-                </div>
-                <!-- End off row -->
-            </div>
-            <!-- End off container -->
-        </section>
-        <!-- End off Featured Section-->
-
+           
     </div>
-
 
     <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
@@ -112,11 +112,11 @@
         import { core } from './module/core.js'
         import { cv } from './module/cv.js'
         import { skill } from './module/skill.js'
-        const CVBox = document.getElementById("CVBox")
+        const culmnBox = document.getElementsByClassName("culmn")
         const skillBox = document.getElementById("skillBox")
 
         core.loadJSON('./text/cv.json',
-            (data) => { cv.creatBox(data, CVBox) },
+            (data) => { cv.toWrite(data, culmnBox[0]) },
             (xhr) => { console.error(xhr) }
         )
 
